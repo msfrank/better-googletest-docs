@@ -1,1 +1,13 @@
-/venv
+# Directory where Sphinx will write output
+sphinx-out/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
