@@ -10,4 +10,3 @@ Reference
    googletest/docs/reference/assertions
    googletest/docs/reference/matchers
    googletest/docs/reference/actions
-   googletest/docs/reference/testing

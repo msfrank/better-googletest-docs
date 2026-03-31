@@ -28,12 +28,12 @@ jobs:
         run: uv sync --locked --all-extras --dev
 
       - name: Build HTML documentation
-        run: uv run -- sphinx-build -M html . sphinx-out
+        run: make html
 
       - name: Upload static content as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: sphinx-out/html/
+          path: _build/html/
 
   deploy:
     name: Deploy artifacts to GH Pages
