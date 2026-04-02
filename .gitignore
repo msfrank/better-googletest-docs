@@ -1,5 +1,5 @@
 # Directory where Sphinx will write output
-sphinx-out/
+_build/
 
 # Python-generated files
 __pycache__/

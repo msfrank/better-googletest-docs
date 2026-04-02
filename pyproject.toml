@@ -1,10 +1,12 @@
 [project]
 name = "better-googletest-docs"
 version = "0.1.0"
-description = "Googletest documentation with better usability"
-readme = "README.md"
+description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
+    "markdown-it-py>=4.0.0",
+    "markdownify>=1.2.2",
+    "mdformat>=1.0.0",
     "myst-parser>=5.0.0",
     "sphinx>=9.1.0",
 ]

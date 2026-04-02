@@ -28,12 +28,12 @@ jobs:
         run: uv sync --locked --all-extras --dev
 
       - name: Build HTML documentation
-        run: make html
+        run: ./build.sh
 
       - name: Upload static content as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html/
+          path: _build/output/html/
 
   deploy:
     name: Deploy artifacts to GH Pages
